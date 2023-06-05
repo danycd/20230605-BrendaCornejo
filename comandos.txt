@@ -1,0 +1,27 @@
+  879  touch comandos.txt main.js index.html
+  880  git init
+  881  git remote add origin https://github.com/danycd/20230605-BrendaCornejo.git
+  882  git add . 
+  883  git commit -m "commit 01 de BrendaCornejo"
+  884  git push origin main
+  885  git checkout -b feature
+  886  mkdir Hardware Software SeguridadInformatica
+  887  cd Hardware
+  888  touch resumen.txt
+  889  cp * ../Software/
+  890  cp * ../SeguridadInformatica
+  891  git add . 
+  892  cd ..
+  893  git add . 
+  894  git commit -m "commit 02 de BrendaCornejo"
+  895  git push origin feature
+  896  git checkout main
+  897  mv comandos.txt resumenHardware.txt
+  898  mv index.html resumenSoftware.txt
+  899  history
+  900  history 879
+  901  history
+  902  mv main.js comandos.txt
+  903  history
+  904  history 978
+  905  history 879

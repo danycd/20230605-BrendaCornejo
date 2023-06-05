@@ -1,0 +1,3 @@
+- Navegadores web
+- Sistemas operativos
+- Editores de código
